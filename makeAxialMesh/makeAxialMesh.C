@@ -49,7 +49,7 @@ Description
 
 
 #include "argList.H"
-#include "Time.H"
+#include "foamTime.H"
 #include "repatchPolyTopoChanger.H"
 
 #include "plane.H"
