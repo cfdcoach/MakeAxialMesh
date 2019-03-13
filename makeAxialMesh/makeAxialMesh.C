@@ -188,8 +188,8 @@ void changeCoordinates(
   pointField oldPoints=mesh.points();                //DPS the old points will be rotated too
   pointField newPoints(oldPoints.size());
 
-  const scalar factor=std::sin(angle/180.*constant::mathematical::pi);
-  const scalar factorRadius=std::cos(angle/180.*constant::mathematical::pi);
+  const scalar factor=std::sin(angle/180.*mathematicalConstant::pi);
+  const scalar factorRadius=std::cos(angle/180.*mathematicalConstant::pi);
   vector axisDir = axisLine.vec()/axisLine.mag();
 
   scalar minRadius=1e10,maxRadius=-1e10;
